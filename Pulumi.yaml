@@ -1,0 +1,3 @@
+name: create_subdomains
+runtime: nodejs
+description: Create subdomains
