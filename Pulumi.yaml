@@ -1,3 +1,3 @@
-name: create_subdomains
+name: pulumi_aws_create_subdomains
 runtime: nodejs
-description: Create subdomains
+description: Create certificates for domains
