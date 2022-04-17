@@ -9,15 +9,22 @@ let subdomainsProduction = [];
 
 switch (config.stack) {
     case 'app1':
-        subdomains.push(`auth.${config.targetDomain}`);
-        subdomainsProduction.push(`auth.${config.targetDomainProduction}`);
-        subdomainsProduction.push(`auth-api.${config.targetDomainProduction}`);
+        subdomains.push(`auth-dev.${config.targetDomain}`);
+        subdomains.push(`auth2-dev.${config.targetDomain}`);
+        subdomains.push(`auth-qa.${config.targetDomain}`);
+
+        // example to create domain for production
+        // subdomainsProduction.push(`auth.${config.targetDomainProduction}`);
+        // subdomainsProduction.push(`auth-api.${config.targetDomainProduction}`);
         break;
 
     case 'app2':
-        subdomains.push(`payment.${config.targetDomain}`);
-        subdomainsProduction.push(`payment.${config.targetDomainProduction}`);
-        subdomainsProduction.push(`payment-api.${config.targetDomainProduction}`);
+        subdomains.push(`payment-dev.${config.targetDomain}`);
+        subdomains.push(`payment-qa.${config.targetDomain}`);
+
+        // example to create domain for production
+        // subdomainsProduction.push(`payment.${config.targetDomainProduction}`);
+        // subdomainsProduction.push(`payment-api.${config.targetDomainProduction}`);
         break;
 }
 

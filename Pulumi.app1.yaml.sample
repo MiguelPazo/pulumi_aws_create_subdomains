@@ -1,0 +1,7 @@
+config:
+  aws:profile: aws_profile
+  aws:region: ca-central-1
+  pulumi_aws_create_subdomains:generalTagName: app1
+  pulumi_aws_create_subdomains:targetDomain: app1-dev.com
+# only add if is necesary
+#  pulumi_aws_create_subdomains:targetDomainProduction: app1.com

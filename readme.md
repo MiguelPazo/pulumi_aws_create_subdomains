@@ -7,7 +7,7 @@ environment variable.
 pulumi config set aws:profile profile
 pulumi config set aws:region region
 pulumi config set generalTagName tagname
-pulumi config set targetDomain dev.domain.com
+pulumi config set targetDomain domain-dev.com
 pulumi config set targetDomainProduction domain.com
 ```
 
